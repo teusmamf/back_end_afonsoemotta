@@ -9,7 +9,7 @@ const app = express();
 app.use(cors()); // Habilita CORS para qualquer origem
 app.use(express.json());
 
-const SPREADSHEET_ID = '1pTjoMomAJDEtCoVgn4AUcbsH5eYiVt2tGsEG6p8QY3I';
+const SPREADSHEET_ID = '1RzL3ZwWFK-9f-uKn6S-bfBLzzv1H0qD0AqVl7d6tn_U';
 const SHEET_NAME = 'Responses';
 
 app.get('/', (req, res) => {
